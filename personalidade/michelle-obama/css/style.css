@@ -44,9 +44,8 @@ li {
 .header {
     
     background:linear-gradient(rgba(255,0,255,0.2),rgba(255,0,255,0.2)),url(../img/mich.jpg) no-repeat center center / cover;
-    background-repeat: no-repeat;
-    background-size: 100vw;;
-    width: 100%;
+    background-size: 100vw;
+    max-width: 100%;
     height: 300px;
     background-position: top right;
     
@@ -158,6 +157,12 @@ h2{
 }
 
 /* ===autora=== */
+
+.box_img{
+    max-width: 300px;
+    max-height: 300px;
+    
+}
 .autora img {
     width: 25%;
     height: 25%;
@@ -182,6 +187,7 @@ h2{
     width: 60%;
     height: 30%;
     letter-spacing: 1px;
+    text-align:fixed;
 }
 .mae_ver-todas-elas {
     
@@ -261,8 +267,9 @@ a:link, a:visited, a:hover, a:active {
 }
 
 @media (max-width: 767px) {
+
 .home_redes {
-    display: none;
+display: none;
 }
 
 }
@@ -345,6 +352,7 @@ a:link, a:visited, a:hover, a:active {
     width: 16%;
     height: 30%;
     border-radius:20%;
+    
 }
 
 .descricao_principal {
@@ -370,9 +378,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .foto_2 {
-    width: 73%;
+    width: 100%;
     height: 338px;
     margin: 0px 93px;
+    margin-left:auto;
+    
 }
 
 .historia_MO2 {
@@ -576,5 +586,5 @@ a:link, a:visited, a:hover, a:active {
 .reprograma {
     font-size: 13px;
 
-}
+    }
 }
